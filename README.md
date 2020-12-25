@@ -11,7 +11,7 @@ I do not know if I am even asking the correct questions.
 
 
 
-#### How do you use this
+### How do you use this
 
 This repository compiles answers optimised for interviews
 
@@ -22,28 +22,28 @@ This repository compiles answers optimised for interviews
 
 
 
-#### What should this contain
+### What should this contain
 
-- Good questions. This should contain questions that can be asked in a technical interview. It should not be a history quiz or a numbers trivia.
 - No opinions. While we should have opinions (ethics, predictions, positions), you have to figure them out and justify them yourself.
 - References. This will serve as attribution, and also further reading material to understand the topic.
+- Good questions. This should contain questions that can be asked in a technical interview. It should not be a history quiz or a numbers trivia.
 - Relevant questions. The knowledge should have direct technical application for either a software engineer or a machine learning practitioner.
 
 
 
-###### Excluded topics
+#### Excluded topics
 
 - Algorithms (please refer to other resources to prepare for the coding component of the interview)
-- Mathematics and Physics
-- Computation Structures (Arithmetric Logic Unit)
+- Mathematics and Theory of Computation
+- Computation Structures (Arithmetric Logic Unit) - will this ever be asked in an interview?
 - Robotics
-- Game Design
-- Graphics and Visualisation
-- Data Analysis and Visualisation
+- Game Design and Development
+- Graphics and Image Processing
+- Data Analysis and Information Visualisation
 
 
 
-#### Useful resources
+### Useful resources
 
 - [GeeksForGeeks articles](https://www.geeksforgeeks.org/most-asked-computer-science-subjects-interview-questions-in-amazon-microsoft-flipkart/). They tend to explain everything, here I want to summarise the answer that it is good for interview.
 - [donnemartin's System Design Primer](https://github.com/donnemartin/system-design-primer) This describes how to prepare to interview questions on designing large-scale systems.
@@ -52,28 +52,13 @@ This repository compiles answers optimised for interviews
 - [Programmer competency matrix](https://sijinjoseph.netlify.app/programmer-competency-matrix/) An outline of the the different competency levels of each domain of computer science.
 - [Attempted comparison of CS courses between Singapore universities](https://www.reddit.com/r/SGExams/comments/g3yion/uni_computer_science_curricula/)
 - Syllabus and course objectives of the courses you have taken. It should be a good summary of what you have learnt throughout the course.
+- Job descriptions of whatever jobs you are applying for
 
 
 
-## Topics
+## Computer Science Topics
 
 (Should be ordered in some reasonable order)
-
-
-
-### Computation Structures
-
-[SUTD 50.002 Computation Structures](https://istd.sutd.edu.sg/undergraduate/courses/50002-computation-structures)
-
-[Crash Course Computing](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
-
-(Was this ever asked in interviews? Does it serve any purpose for asking them?)
-
-(Registers, RAM, CPU)
-
-
-
-
 
 
 
@@ -129,12 +114,33 @@ How does your computer ensure that the website that you are visiting is authenti
 
 
 
+Describe how the following attack works, and how to project against it
+
+- Cross-Site Request Forgery (CSRF)
+- Cross-site scripting (XSS)
+- Distributed Denial of Service (DDoS)
+- SQL injection
+
+
+
+
+
 
 ### Operating Systems
+
+[SUTD 50.005 Computer System Engineering](https://istd.sutd.edu.sg/undergraduate/courses/50005-computer-system-engineering)
 
 What is the difference between process and threads?
 
 - A process may have multiple threads. Different processes do not share memory, different threads of a process share a memory
+
+
+
+- Process management and multithreaded programming
+- Process scheduling, synchronization, deadlock
+- Memory management, file system, and I/O system
+
+
 
 
 
@@ -154,10 +160,6 @@ What is the difference between MySQL, PostgresSQL
 
 
 
-What is the CAP theorem and how is it applied?
-
-- Consistency, Availability, Partition tolerance
-
 
 
 (What is the deal with NoSQL?)
@@ -166,9 +168,19 @@ Hadoop and MapReduce
 
 
 
+
+
 ### Distributed Systems
 
 [50.041 Distributed Systems and Computing](https://istd.sutd.edu.sg/undergraduate/courses/50041-distributed-systems-computing)
+
+
+
+What is the CAP theorem and how is it applied?
+
+- Consistency, Availability, Partition tolerance
+
+
 
 
 
@@ -230,9 +242,14 @@ What are some applications of blockchain?
 
 
 
+### System Design
 
+Questions from the System Design Primer
 
-
+Explain the following tradeoffs
+- Performance vs scalability
+- Latency vs throughput
+- Availability vs consistency
 
 
 
@@ -276,6 +293,10 @@ Kafka, Airflow, etc
 
 
 
+The data pipeline?
+
+
+
 UI/UX, QA
 
 
@@ -285,4 +306,22 @@ UI/UX, QA
 
 
 (Programming languages, choice and design?)
+
+
+
+Bluetooth technologies, and TraceTogether
+
+
+
+Ruby on Rails, Sidekiq, Redis
+
+
+
+Terraform
+
+
+
+Describe the difference between L1, L2 and L3 support
+
+
 

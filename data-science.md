@@ -4,7 +4,26 @@
 * auto-gen TOC:
 {:toc}
 
-### Data Science
+
+Please refer to the main document on how to use this document, and what should this document contain.
+
+
+### Useful resources
+
+- [Attempted comparison of CS courses between Singapore universities](https://www.reddit.com/r/SGExams/comments/g3yion/uni_computer_science_curricula/)
+- Syllabus and course objectives of the courses you have taken. It should be a good summary of what you have learnt throughout the course.
+- To be added
+
+
+
+## Data Science Topics
+
+(Should be ordered in some reasonable order)
+
+
+
+
+### Data Science Fundamentals
 
 [50.038 Computational Data Science](https://istd.sutd.edu.sg/undergraduate/courses/50038-computational-data-science)
 
@@ -38,6 +57,14 @@ Explain the bias-variance tradeoff
 How do you decide whether to include an additional feature into your prediction?
 
 - TBC
+
+
+
+What is precision and recall?
+
+- 
+- Recall is the ratio of true positive over the total number of ground
+- Increasing the threshold always decreases recall, but may increase precision.
 
 
 
