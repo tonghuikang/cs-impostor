@@ -2,21 +2,36 @@
 
 After failing multiple technical interviews for being clueless on the computer science concepts, I realised that I needed to be better impostor.
 
+This document compiles answers optimised for software engineer interviews. Refer to the other document for data science topics.
+
+### Collaboration
+
 Collaborators are welcome and much needed, because I do not have the required background (my degree is not Computer Science). 
 
 I do not know if I am even asking the correct questions.
 
+Please message me somehow, if you are interested.
+
 * auto-gen TOC:
 {:toc}
+### My current thoughts on this document
+
+- I need to identify the key value proposition of this document. Currently it is canned answers to technical knowledge questions asked in interviews, and for undergraduates.
+- If the key value proposition is as above, are there currently work done on it? The Tech Interview Handbook, and the System Design Primer is something I want to emulate.
+  - This overlaps partly with the System Design Primer. The difference it - question and answer format, covers other concepts. This focuses on new grads, people with experience can better relate to the System Design Primer.
+- This is meant for undergraduates because I am graduating soon. People with experience should find this useful too, the difference is they can back their answers up with real experience.
+- Are the questions really asked in interviews? Most of the questions are things that someone with some experience "should know" (e.g. how to frontend) - but they asked?
+- Currently I am organising and compiling the question to ask. Then I will interrogate some of my expert friends for their answers and force them to do a pull request.
+
 
 
 
 ### How do you use this
 
-This repository compiles answers optimised for interviews
+For each topic, there are interview questions, and there is a proposed answer for the question.
 
 - The purpose of your answer is to demostrate knowledge of the subject, rather than to teach the concept. You do not need to explain everything from scratch.
-- You should keep your answer concise, at around three sentences. You should not explain everything you know. They will ask for more if they want. There is likely many other questions to go through, and you might need to code too.
+- You should keep your answer concise. You need to condense all you know into around three sentences. They will ask for more if they want. There is likely many other questions to go through, and you might need to code too.
 - You should know what you are talking about. It is better to concede when you do not know further.
 - To show your experience and make your answer unique, you may want to elaborate with an example on how you applied the concepts in question.
 
@@ -24,14 +39,38 @@ This repository compiles answers optimised for interviews
 
 ### What should this contain
 
-- No opinions. While we should have opinions (ethics, predictions, positions), you have to figure them out and justify them yourself.
+- No opinions. While we should have opinions (on ethics, predictions, controversies), you have to figure them out and justify them yourself.
 - References. This will serve as attribution, and also further reading material to understand the topic.
 - Good questions. This should contain questions that can be asked in a technical interview. It should not be a history quiz or a numbers trivia.
-- Relevant questions. The knowledge should have direct technical application for either a software engineer or a machine learning practitioner.
+
+
+
+### Scope of Coverage
+
+We would not cover all aspects of computer science, or even everything that is taught in school. We want questions that are actually asked in interviews.
+
+#### Relevant roles
+
+This interview content guide is meant for new grads. For new graduates,  companies usually recruit for "Software Engineer" or "Data Scientist" and then matchmake your role depending on location and requirements.
+
+- Software Engineer
+  - Frontend and Mobile (explain job scope here)
+  - Backend (explain job scope here)
+  - Data Engineer (explain job scope here)
+  - Site Reliability Engineer (explain job scope here)
+  - Security Engineer (explain job scope here)
+  - DevOps / Productivity Engineering (explain job scope here)
+- Data Analyst / Scientist (explain job scope here)
+  - Research Engineer / Scientist (usually Masters/PhD required)
+- Solution Architect (you sell your company's technical products to customers and provide advice)
+
+Regardless of your technical role, it is important to have some basic knowledge of other technologies. This helps to develop a bigger picture and inform you what is important when you develop your technical solutions. (What does this sentence actually mean lol)
 
 
 
 #### Excluded topics
+
+We want interview questions that are immediately relevant to a software engineer or a machine learning practitioner. The following topics are excluded
 
 - Algorithms (please refer to other resources to prepare for the coding component of the interview)
 - Mathematics and Theory of Computation
@@ -46,83 +85,29 @@ This repository compiles answers optimised for interviews
 ### Useful resources
 
 - [GeeksForGeeks articles](https://www.geeksforgeeks.org/most-asked-computer-science-subjects-interview-questions-in-amazon-microsoft-flipkart/). They tend to explain everything, here I want to summarise the answer that it is good for interview.
-- [donnemartin's System Design Primer](https://github.com/donnemartin/system-design-primer) This describes how to prepare to interview questions on designing large-scale systems.
-- [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/) How to apply for job, and algorithms.
-- [MIT CSAIL Missing Semester](https://missing.csail.mit.edu/) Introduces tools for software development which is hardly covered in courses.
-- [Programmer competency matrix](https://sijinjoseph.netlify.app/programmer-competency-matrix/) An outline of the the different competency levels of each domain of computer science.
-- [Attempted comparison of CS courses between Singapore universities](https://www.reddit.com/r/SGExams/comments/g3yion/uni_computer_science_curricula/)
-- Syllabus and course objectives of the courses you have taken. It should be a good summary of what you have learnt throughout the course.
-- Job descriptions of whatever jobs you are applying for
+- [donnemartin's System Design Primer](https://github.com/donnemartin/system-design-primer). This describes how to prepare to interview questions on designing large-scale systems.
+- [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/). How to apply for technical role from resume writing to offer negotiation, and a gentle introduction to algorithms.
+- [MIT CSAIL Missing Semester](https://missing.csail.mit.edu/). Introduces tools for software development which is hardly covered in courses.
+- [Programmer competency matrix](https://sijinjoseph.netlify.app/programmer-competency-matrix/). An outline of the the different competency levels of each domain of computer science.
+- Syllabus and Course Objectives. They are good summaries of the courses that you have taken. [Attempted comparison of CS courses between Singapore universities](https://www.reddit.com/r/SGExams/comments/g3yion/uni_computer_science_curricula/)
+- Job Descriptions. Your cover letter should address the requirements point-by-point. Interviews are also likely designed to verify whether you fulfill the requirements.
+- Past Interview questions. Some past interviewees share their interviewing experience on online platforms such as [Glassdoor](https://www.glassdoor.sg/Interview), [LeetCode](https://leetcode.com/discuss/interview-experience), [BinarySearch](https://binarysearch.com/). Many of the questions here are adapted from these. 
+- Past Successes. Companies are likely to hire based on experience with previous hires. You can search up previous year's hires on LinkedIn and use them as a standard to estimate your chances of success. Regardless, do not be discouraged to submit your resume as long as you are sincerely interested in the role.
+
+# Computer Science Topics
+
+I have organised the topics under four fields
+
+- Backend Engineering
+- Frontend Engineering
+- Security Engineering
+- Engineering Management
 
 
 
-## Computer Science Topics
+## Backend Engineering
 
-(Should be ordered in some reasonable order)
-
-
-
-
-### Networking
-
-[SUTD 50.012 Networks](https://istd.sutd.edu.sg/undergraduate/courses/50012-networks)
-
-What happens when you access a website?
-
-- DNS lookup for IP address, and then?
-
-(packet switching, layered architectures, TCP/IP, physical layer, error control, window flow control, local area networks (Ethernet, Token Ring; FDDI), network layer, congestion control, quality of service, multicast, network programming interfaces, networked applications)
-
-
-
-
-
-
-### Cybersecurity
-
-[SUTD 50.042 Foundations of Cybersecurity](https://istd.sutd.edu.sg/undergraduate/courses/50042-foundations-cybersecurity)
-
-[SUTD 50.020 Network Security]( https://istd.sutd.edu.sg/undergraduate/courses/50020-network-security)
-
-[SUTD 50.044 System Security](https://istd.sutd.edu.sg/undergraduate/courses/50044-system-security)
-
-(The course objectives above lacked keywords for me to extract)
-
-
-
-What are the objectives of Cybersecurity?
-
--  Confidentiality, Integrity and Availability
-
-
-
-How does secure communciation happen through https?
-
-- Security and encryption process - Authentication with Certificate Authority with asymmetric encryption, symmetric for secure communication
-
-
-
-What is the difference between symmetric and asymmetric encryption?
-
-- Symmetric encryption uses the same keys to encrypt and decrypt, 
-
-
-
-How does your computer ensure that the website that you are visiting is authentic?
-
-- Certificate authority
-
-
-
-Describe how the following attack works, and how to project against it
-
-- Cross-Site Request Forgery (CSRF)
-- Cross-site scripting (XSS)
-- Distributed Denial of Service (DDoS)
-- SQL injection
-
-
-
+Technical solutions often involve business logic and information. Business logic requires computational work, and databases require storage. Appreciation for the field of backend engineering will help in (I need help pinning down the benefits)
 
 
 
@@ -154,17 +139,35 @@ How do we index a database and why?
 
 
 
-What is the difference between MySQL, PostgresSQL
 
+
+What is the difference between SQL-based database, and NoSQL-based databases?
+- [MongoDB's explanation of NoSQL](https://www.mongodb.com/nosql-explained)
+
+
+
+What are the types of NoSQL Databases?
+- Document databases
+- Key-value databases
+- Wide-column stores
+- Graph databases
+
+
+
+What is the difference between MySQL, PostgresSQL
 - No idea
 
+MongoDB, Ruby on Rails, Redis
 
 
 
+Where does join operations happen? How is compute and store separated? Where do compute-intensive workload happen, and what are some examples?
 
-(What is the deal with NoSQL?)
+
 
 Hadoop and MapReduce
+
+
 
 
 
@@ -204,28 +207,10 @@ Normal and byzantine faults
 
 
 
-### Frontend Technologies
-
-(Vue, React, ?)
-
-
-
-
-
-
-### Mobile Technologies
-
-Outline the procedure to publish an application on Google Play Store, and on iOS App Store
-
-- TBC
-
-
-
-(Differences between the mobile browser and desktop browser)
-
-
 
 ### Blockchain
+
+Some basic knowledge of blockchain will help in understanding and communicating its potential and limitations.
 
 [SUTD 50.037 Blockchain Technology]()
 
@@ -242,6 +227,114 @@ What are some applications of blockchain?
 
 
 
+
+
+## Frontend Engineering
+
+Your clients usually extract value from your business offerings through an interface. Such interfaces need to be intutitive and usable. An appreciation of how the interface is constructed will (I need help pinning down the benefits)
+
+(Vue, React, ?)
+
+ES6, TypeScript, Babel, Web Workers, React, and Angular
+
+package managers (npm), task runners (Gulp, Webpack, Grunt), CSS processors (Sass, Stylus), and APIs (WebSocket)
+
+UI testing 
+
+
+
+
+### Mobile Technologies
+
+Many products adopt a mobile-first strategy, and we need to know how to develop and serve on this platform.
+
+
+
+Outline the procedure to publish an application on Google Play Store, and on iOS App Store
+- TBC
+
+
+
+What are the differences between the mobile browser and desktop browser
+- (Chromium, Blink, Webkit?)
+
+
+
+## Security Engineering
+
+You need to protect your asset and data from interference and unauthorised access. It is important for all engineers the security implications of what they are working on.
+
+[SUTD 50.042 Foundations of Cybersecurity](https://istd.sutd.edu.sg/undergraduate/courses/50042-foundations-cybersecurity)
+
+[SUTD 50.020 Network Security]( https://istd.sutd.edu.sg/undergraduate/courses/50020-network-security)
+
+[SUTD 50.044 System Security](https://istd.sutd.edu.sg/undergraduate/courses/50044-system-security)
+
+(The course objectives above lacked keywords for me to extract)
+
+
+
+What are the objectives of Cybersecurity?
+- Confidentiality, Integrity and Availability
+
+
+
+What is the difference between symmetric and asymmetric encryption?
+- Symmetric encryption uses the same keys to encrypt and decrypt, 
+
+
+
+
+
+### Networking
+
+Information is sent over the Internet, and communications needs to be secure. 
+
+[SUTD 50.012 Networks](https://istd.sutd.edu.sg/undergraduate/courses/50012-networks)
+
+What happens when you access a website?
+
+- DNS lookup for IP address, and then?
+
+(packet switching, layered architectures, TCP/IP, physical layer, error control, window flow control, local area networks (Ethernet, Token Ring; FDDI), network layer, congestion control, quality of service, multicast, network programming interfaces, networked applications)
+
+
+How does secure communciation happen through https?
+
+- Security and encryption process - Authentication with Certificate Authority with asymmetric encryption, symmetric for secure communication
+
+
+How does your computer ensure that the website that you are visiting is authentic?
+
+- Certificate authority
+
+
+
+
+### Threat Management
+
+We need to understand, detect and manage security threats.
+
+Describe how the following attack works, and how to project against it
+
+- Cross-Site Request Forgery (CSRF)
+- Cross-site scripting (XSS)
+- Distributed Denial of Service (DDoS)
+- SQL injection
+
+
+
+
+
+
+
+
+## Engineering Management
+
+While you are likely to start out from the bottom, you need to understand the prespective of your technical manager. You also may need to make certain design decisions, which involves tradeoffs.
+
+
+
 ### System Design
 
 Questions from the System Design Primer
@@ -253,7 +346,28 @@ Explain the following tradeoffs
 
 
 
-### Unclassified
+### Software development
+
+What is the difference between Waterfall and Scrum, and what are its merits?
+- TBC
+
+
+
+Development processes (?) (Agile Scrum, Lean Manufacturing, Design Thinking, Six Sigma, Lean Startup, DevOps, Software Development Lifecycle)
+
+Test Driven Development
+
+Continuous Integration, Continuous Delivery
+
+
+
+How does the git source control process work (fetch, pull, add, commit, push)?
+
+
+
+
+
+## Unclassified
 
 Different stacks and its merits
 
@@ -261,19 +375,7 @@ Different stacks and its merits
 
 
 
-Development processes (?) (Agile Scrum, Lean Manufacturing, Design Thinking, Six Sigma, Lean Startup, DevOps)
-
-
-
-Continuous Integration, Continuous Delivery
-
-
-
 Containers and Kubernetes
-
-
-
-How does the git source control process work (fetch, pull, add, commit, push)?
 
 
 
@@ -301,7 +403,7 @@ UI/UX, QA
 
 
 
-(Primal-dual formulation? Seems like an important concept in optimisation but I do not understand)
+(Primal-dual formulation? Seems like an important concept in optimisation but I do not understand, but this is math)
 
 
 
@@ -312,8 +414,6 @@ UI/UX, QA
 Bluetooth technologies, and TraceTogether
 
 
-
-Ruby on Rails, Sidekiq, Redis
 
 
 

@@ -1,8 +1,16 @@
 # How to be a DS impostor
 
+After failing multiple technical interviews for being clueless on many machine learning concepts, I realised that I needed to be better impostor.
+
+This document compiles answers optimised for data science interviews. Refer to the other document for computer science topics.
+
 
 * auto-gen TOC:
 {:toc}
+
+
+(I need to redefine what is data science here)
+
 
 
 Please refer to the main document on how to use this document, and what should this document contain.
@@ -11,23 +19,24 @@ Please refer to the main document on how to use this document, and what should t
 ### Useful resources
 
 - [Attempted comparison of CS courses between Singapore universities](https://www.reddit.com/r/SGExams/comments/g3yion/uni_computer_science_curricula/)
+- [Chip Huyen's Machine Learning Systems Design](https://github.com/chiphuyen/machine-learning-systems-design/blob/master/build/build1/consolidated.pdf) (add a summary here)
 - Syllabus and course objectives of the courses you have taken. It should be a good summary of what you have learnt throughout the course.
-- To be added
 
 
 
-## Data Science Topics
+# Data Science Topics
 
 (Should be ordered in some reasonable order)
 
 
 
 
-### Data Science Fundamentals
+## Data Science Fundamentals
 
-[50.038 Computational Data Science](https://istd.sutd.edu.sg/undergraduate/courses/50038-computational-data-science)
+[SUTD 40.220 The Analytics Edge](https://esd.sutd.edu.sg/courses/40220-the-analytics-edge/)
 
-[40.220 The Analytics Edge](https://esd.sutd.edu.sg/courses/40220-the-analytics-edge/)
+[SUTD 50.038 Computational Data Science](https://istd.sutd.edu.sg/undergraduate/courses/50038-computational-data-science)
+
 
 
 Why do we split the data into training set, validation set and test set?
@@ -38,7 +47,7 @@ Why do we split the data into training set, validation set and test set?
 
 Why do we do cross validation?
 
-- TBC
+- We want to use all the data to train our model, while maintaining train-test split.
 
 
 
@@ -62,7 +71,6 @@ How do you decide whether to include an additional feature into your prediction?
 
 What is precision and recall?
 
-- 
 - Recall is the ratio of true positive over the total number of ground
 - Increasing the threshold always decreases recall, but may increase precision.
 
@@ -74,7 +82,7 @@ What is precision and recall?
 
 
 
-### Machine Learning
+## Machine Learning Fundamentals
 
 [SUTD 50.007 Machine Learning](https://istd.sutd.edu.sg/undergraduate/courses/50007-machine-learning)
 
@@ -152,9 +160,9 @@ How do you fool a neural network?
 
 
 
-#### Selected topics in ML
+## Selected topics in ML
 
-###### Gradient Boosting Decision Tree Algorithms
+###### Gradient Boosting Decision Tree (GBDT)
 
 What is the difference between random forest, XGBoost, LightGBM and CatBoost?
 
@@ -242,3 +250,11 @@ What is the difference between (the historical and latest CNNs, e.g. MobileNet)?
 
 
 Bounding boxes and bounding shapes, and how is the objective trained  
+
+
+
+
+
+
+
+## Unclassified
