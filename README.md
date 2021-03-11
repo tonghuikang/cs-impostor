@@ -2,39 +2,33 @@
 
 After failing multiple technical interviews for being clueless on the computer science concepts, I realised that I needed to be better impostor.
 
-This document compiles answers optimised for software engineer interviews. Refer to the other document for data science topics.
+This document compiles answers optimised the **knowledge questions** for software engineer interviews. Refer to the other document for data science topics.
 
-### Collaboration
-
-Collaborators are welcome and much needed, because I do not have the required background (my degree is not Computer Science). 
-
-I do not know if I am even asking the correct questions.
-
-Please message me somehow, if you are interested.
 
 * auto-gen TOC:
 {:toc}
-### My current thoughts on this document
-
-- I need to identify the key value proposition of this document. Currently it is canned answers to technical knowledge questions asked in interviews, and for undergraduates.
-- If the key value proposition is as above, are there currently work done on it? The Tech Interview Handbook, and the System Design Primer is something I want to emulate.
-  - This overlaps partly with the System Design Primer. The difference it - question and answer format, covers other concepts. This focuses on new grads, people with experience can better relate to the System Design Primer.
-- This is meant for undergraduates because I am graduating soon. People with experience should find this useful too, the difference is they can back their answers up with real experience.
-- Are the questions really asked in interviews? Most of the questions are things that someone with some experience "should know" (e.g. how to frontend) - but they asked?
-- Currently I am organising and compiling the question to ask. Then I will interrogate some of my expert friends for their answers and force them to do a pull request.
 
 
+### What is this about
+
+I am making this for myself, but I am still wondering how can this be useful to others.
+
+Collaborators are welcome and much needed, because I do not have the required background (my degree is not Computer Science).
+
+Ideally you should currently be taking interviews that ask some knowledge questions, for example
+- What is the difference between thread and processes?
+- Explain the difference between the various neural network optimisers.
+
+Please message me somehow, if you are interested.
 
 
-### How do you use this
-
-For each topic, there are interview questions, and there is a proposed answer for the question.
+### How to answer questions
 
 - The purpose of your answer is to demostrate knowledge of the subject, rather than to teach the concept. You do not need to explain everything from scratch.
 - You should keep your answer concise. You need to condense all you know into around three sentences. They will ask for more if they want. There is likely many other questions to go through, and you might need to code too.
+- If you do not know the answer to the question, try explaining from what you know (the concepts mentioned), and try to answer their question.
 - You should know what you are talking about. It is better to concede when you do not know further.
 - To show your experience and make your answer unique, you may want to elaborate with an example on how you applied the concepts in question.
-
 
 
 ### What should this contain
@@ -56,9 +50,10 @@ This interview content guide is meant for new grads. For new graduates,  compani
 - Software Engineer
   - Frontend and Mobile (explain job scope here)
   - Backend (explain job scope here)
+  - Site Reliability Engeineer / Production Engeineer (explain job scope here)
   - Data Engineer (explain job scope here)
-  - Site Reliability Engineer (explain job scope here)
   - Security Engineer (explain job scope here)
+  - Machine Learning Engineer (explain job scope here)
   - DevOps / Productivity Engineering (explain job scope here)
 - Data Analyst / Scientist (explain job scope here)
   - Research Engineer / Scientist (usually Masters/PhD required)
@@ -93,6 +88,7 @@ We want interview questions that are immediately relevant to a software engineer
 - Job Descriptions. Your cover letter should address the requirements point-by-point. Interviews are also likely designed to verify whether you fulfill the requirements.
 - Past Interview questions. Some past interviewees share their interviewing experience on online platforms such as [Glassdoor](https://www.glassdoor.sg/Interview), [LeetCode](https://leetcode.com/discuss/interview-experience), [BinarySearch](https://binarysearch.com/). Many of the questions here are adapted from these. 
 - Past Successes. Companies are likely to hire based on experience with previous hires. You can search up previous year's hires on LinkedIn and use them as a standard to estimate your chances of success. Regardless, do not be discouraged to submit your resume as long as you are sincerely interested in the role.
+- https://blog.hackerrank.com/developer-skills-list/
 
 # Computer Science Topics
 
@@ -105,10 +101,11 @@ I have organised the topics under four fields
 
 
 
+
+
 ## Backend Engineering
 
-Technical solutions often involve business logic and information. Business logic requires computational work, and databases require storage. Appreciation for the field of backend engineering will help in (I need help pinning down the benefits)
-
+Technical solutions often involve business logic and information. Business logic requires computational work, and databases require storage.
 
 
 ### Operating Systems
@@ -169,7 +166,11 @@ Hadoop and MapReduce
 
 
 
+GraphQL
 
+- Benefits - you request as much data as you need
+- Should you use GET or POST method? GET method allows for caching, but you do not want to cache at times.
+- `nodes` and `edges`
 
 
 
@@ -217,6 +218,7 @@ Some basic knowledge of blockchain will help in understanding and communicating 
 What is blockchain?
 
 - TBC
+- [Coinbase](https://www.coindesk.com/learn/blockchain-101)
 
 
 
@@ -333,6 +335,8 @@ Describe how the following attack works, and how to project against it
 
 While you are likely to start out from the bottom, you need to understand the prespective of your technical manager. You also may need to make certain design decisions, which involves tradeoffs.
 
+This section also inclulde concept that are relevant in software engineering and not specific to frontend or backend engineering.
+
 
 
 ### System Design
@@ -343,6 +347,22 @@ Explain the following tradeoffs
 - Performance vs scalability
 - Latency vs throughput
 - Availability vs consistency
+
+
+### Object Oriented Programming
+
+Inheritance versus composition
+
+
+
+
+### Software Testing
+
+Reasons for unit testing
+
+Unit tests and Integration tests
+
+Mocks and why are they used
 
 
 
@@ -373,7 +393,7 @@ Different stacks and its merits
 
 - LAMP, MEAN
 
-
+What is a deadlock
 
 Containers and Kubernetes
 
